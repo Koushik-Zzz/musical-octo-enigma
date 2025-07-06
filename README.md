@@ -1,69 +1,90 @@
-# React + TypeScript + Vite
+# Lush Garden - Plant & Flower E-commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful and responsive plant and flower e-commerce website built with React, TypeScript, and Vite.
 
-Currently, two official plugins are available:
+## 🖼️ Project Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Hero Section
+![Hero Section](https://i.ibb.co/fG1LB0dc/Screenshot-from-2025-07-06-21-44-29.png)
 
-## Expanding the ESLint configuration
+### Products Showcase
+![Products Showcase](https://i.ibb.co/fdjnPW1W/Screenshot-from-2025-07-06-21-44-39.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Featured Products
+![Featured Products](https://i.ibb.co/PGqzg3qt/Screenshot-from-2025-07-06-21-44-45.png)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Product Grid
+![Product Grid](https://i.ibb.co/Sw34MKfj/Screenshot-from-2025-07-06-21-44-53.png)
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### Testimonials Section
+![Testimonials](https://i.ibb.co/v6GvDpQp/Screenshot-from-2025-07-06-21-44-59.png)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Newsletter Subscription
+![Newsletter](https://i.ibb.co/d0ck8SVk/Screenshot-from-2025-07-06-21-46-11.png)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### About Us Section
+![About Us](https://i.ibb.co/Xx22mW8m/Screenshot-from-2025-07-06-21-46-17.png)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Service Features
+![Services](https://i.ibb.co/tpR1kR2J/Screenshot-from-2025-07-06-21-46-22.png)
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Footer
+![Footer](https://i.ibb.co/JjvZRQ6k/Screenshot-from-2025-07-06-21-46-25.png)
+
+## 🚀 Local Installation
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (version 16 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd Lush-Garden
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to view the application.
+
+### Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build the project for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check for code issues
+
+## 🛠️ Tech Stack
+
+- **React** 
+- **TypeScript**
+- **Vite** 
+- **Tailwind CSS** 
+- **Shadcn Ui**
+- **Lucide React** 
+
+
+## 📱 Features
+
+- Responsive design
+- Modern UI/UX
+- Product showcase
+- Customer testimonials
+- Newsletter subscription
+- Social media integration
+- Fast and optimized performance
